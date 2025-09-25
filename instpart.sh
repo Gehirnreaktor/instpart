@@ -1,4 +1,4 @@
-                                                                                       #!/bin/bash
+#!/bin/bash
 export LANG=en_US.UTF-8
 
 # Check if necessary programs are installed
@@ -219,4 +219,3 @@ else
     whiptail --title "Aborted" --msgbox "Operation aborted by user." 10 78
     exit 1
 fi
- 
